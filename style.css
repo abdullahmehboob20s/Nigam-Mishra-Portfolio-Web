@@ -372,12 +372,8 @@ nav.scrolled {
 
 /* skills STARTS */
 .skills-cards {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: clamp(20px, 2.7777777777777777vw, 40px);
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -578,6 +574,10 @@ nav.scrolled {
     background-position: right center;
   }
 
+  .skills-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .go-to-top-icon {
     top: unset;
     right: 0;
@@ -762,6 +762,10 @@ nav.scrolled {
     -ms-flex-direction: column;
     flex-direction: column;
     gap: 4rem;
+  }
+
+  .skills-cards {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
