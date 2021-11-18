@@ -726,8 +726,13 @@ nav.scrolled {
   }
 
   .swiper-slide {
-    width: 200px !important;
-    height: 200px !important;
+    width: 270px !important;
+    height: 270px !important;
+  }
+
+  .swiper-wrapper {
+    padding: 3rem 0;
+    padding-bottom: 110px;
   }
 
   .swiper-pagination {
