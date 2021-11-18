@@ -710,8 +710,8 @@ nav.scrolled {
     -ms-flex-align: unset;
     align-items: unset;
     gap: 0rem;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
     padding-top: 100px !important;
   }
 
@@ -781,10 +781,7 @@ nav.scrolled {
 }
 
 @media (max-width: 420px) {
-  .hero {
-    gap: 1rem;
-  }
   .hero-left {
-    margin-top: 0px;
+    margin-top: -80px;
   }
 }
